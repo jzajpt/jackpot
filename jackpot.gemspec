@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'vcr',                 "~> 2.2.0"
   s.add_development_dependency 'fakeweb'
 
-  s.add_dependency "rails",                           "~> 3.1"
+  s.add_dependency "rails",                           ">= 3.1"
   s.add_dependency "formtastic-bootstrap",            "~> 1.1"
   s.add_dependency 'formtastic',                      "~> 2.1.1"
 
